@@ -1,5 +1,4 @@
 # HTML Basics
-
 HTML stands for **H**yper**t**ext **M**arkup **L**anguage. It is not a programming language but is instead a markup language that tells the browser how to display text and other elements. HTML can be thought of as the "skeleton" of a website.
 
 ## Basic Elements and Attributes
@@ -56,4 +55,4 @@ Semantic tags also exist for structuring HTML documents. These elements wrap aro
 
 Non-semantic structural tags include `<div>` for blocks and `<span>` for inline. The `<div>` tag is very useful, but don't overuse it.
 
-Line breaks are accomplished by using `<br>`, and a horizontal rule can be placed with `<hr>`. 
+Line breaks are accomplished by using `<br>`, and a horizontal rule can be placed with `<hr>`.

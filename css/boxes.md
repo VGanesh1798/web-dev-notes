@@ -1,4 +1,5 @@
 # CSS Boxes
+In CSS, everything is a box. Applying styling to these boxes can get very advanced and confusing, so it is good to start with a basic understanding of what boxes are.
 
 ## Box Model Recap
 Box height and width can be constrained by setting max/min values for both. Keep in mind that box heights don't support percentages and need units like `px` or `em`. Using `margin: 0 auto` sets the top/bottom margins to zero while centering the content by sharing space between the left/right margins.

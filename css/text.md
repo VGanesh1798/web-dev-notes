@@ -1,4 +1,5 @@
 # CSS Text
+In CSS, text can be styled to your liking. You can make a span look like a header, or make a header look like a subscript. 
 
 ## Text and Font Styling
 Text is an inline element that flows along the page until the end of line is reached or a line break is put in with `<br>`. Text can either be styled by changing font or layout.

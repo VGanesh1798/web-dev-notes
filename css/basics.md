@@ -1,5 +1,4 @@
 # CSS Basics
-
 CSS stands for **C**ascading **S**tyle **S**heets. It is not a programming language but is instead a styling language that affects markup languages like HTML to change the look and feel of elements. Combined with HTML, CSS forms the Document Object Model, also called the DOM. CSS can be thought of as the "clothing" of a website.
 
 ## Anatomy and Syntax of CSS

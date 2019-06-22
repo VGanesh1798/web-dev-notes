@@ -1,4 +1,5 @@
 # CSS Layout
+CSS is most advanced when it comes to building the layout of a page. The styling can make pages look really slick and smooth, or really buggy and poor to navigate. It is important to understand how CSS layouts work.
 
 ## Normal Flow
 In the box model, elements have a content area of certain width and height which is directly surrounded by padding. This padding is bounded by a border, which is then surrounded by a margin. An outline exists somewhere inside the margin, but is not part of the box model itself.

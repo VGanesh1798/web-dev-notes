@@ -1,5 +1,4 @@
 # HTML Media
-
 HTML5 offers the ability to include media like audio and video in addition to images. Other embedding technologies exist, but aren't as widely used anymore.
 
 ## Images

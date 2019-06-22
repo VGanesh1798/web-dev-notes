@@ -1,5 +1,4 @@
 # HTML Forms
-
 Forms are an incredibly useful part of any website, allowing users to directly interact with the content on the website. They require Javascript to actually have any function and can get very advanced.
 
 ## Form Basics
@@ -27,7 +26,7 @@ Checkboxes only send their data if they are checked; this contrasts with other i
 
 Buttons were described above. An `<input>` can also be used to make a button, but it is easier to style `<button>`.
 
-More advanced `<input>` types include `number` and `range>`, which can (and should, for the slider) have `min`, `max`, and `step` defined. Sliders don't actually provide any visual indicator of what the selected value is; this has to be implemented using a `<span>` element and some Javascript. Date and time control exists in the form of types like `datetime-local`, `month`, `time`, and `week`. These can all be constrained using `min` and `max` too. Colors can be picked by using `color`.
+More advanced `<input>` types include `number` and `range`, which can (and should, for the slider) have `min`, `max`, and `step` defined. Sliders don't actually provide any visual indicator of what the selected value is; this has to be implemented using a `<span>` element and some Javascript. Date and time control exists in the form of types like `datetime-local`, `month`, `time`, and `week`. These can all be constrained using `min` and `max` too. Colors can be picked by using `color`.
 
 Inputs can take files too, with the `file` type. The types of files to pick can be constrained using the `accept` attribute, and `multiple` can be used too.
 
@@ -61,4 +60,4 @@ Modern HTML forms typically use Javascript to send the data rather than HTML its
 
 Another (bad) way to send form data is to build a form using the DOM API, putting the data in an `<iframe>`, and then retrieving the content from the iframe. It's a risky method for sure.
 
-Lastly, when sending files, the `FileReader` API comes into use. 
+Lastly, when sending files, the `FileReader` API comes into use.

@@ -1,5 +1,4 @@
 # HTML Tables
-
 Tables in HTML are used to display tabular data. **Do not use tables to style the web page**. This is an archaic practice that has been superseded by much better technologies.
 
 ## Table Basics
