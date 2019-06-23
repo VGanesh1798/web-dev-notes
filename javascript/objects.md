@@ -51,7 +51,13 @@ Arrow functions do not have their own `this` and instead inherit it directly fro
 ## Object to Primitive Conversion
 All objects are considered truthy values, which covers any boolean conversion. Numeric conversion usually happen when an arithmetic operator is applied to objects, such as when `Date` objects are subtracted. String conversions usually happen when an object is printed using `alert()` or something.
 
-... More later
+The `toPrimitive` method allows us to fine-tune our object conversions, and it can take three hints. The first is `"string"`, which is useful for when we use a statement that expects a string (like `alert()`). The second is `"number"`, which is used when doing math. The last hint is `"default"`, which occurs in rare cases where operators aren't sure what type to expect. For all built-in objects except `Date`, the default hint is implemented the same as the number hint.
+
+There are three methods to consider when performing an object conversion. The first is `Symbol.toPrimitive`, which is used like `obj[Symbol.toPrimitive] = function(hint) {}`. Within the hint function, we can then return a primtive value, and whenever the object needs to be converted it will look at the hint function to figure out what to return.
+
+The next two methods are `toString` and `valueOf`. If no `Symbol.toPrimitive` is found, Javascript looks for `toString`, then `valueOf` for the "string" hint, and `valueOf`, then `toString` for a "number" hint. `toString` functions as a catch-all, so we can use it by itself to handle all primitive conversions.
+
+These methods are only guaranteed to return a primitive; they don't have to return the hinted value.
 
 ## Constructor
 If we want to create a lot of similar objects, we can use function constructors. These are essentially regular functions that are named with capital letters (like classes) and are always executed with the `new` operator. 
