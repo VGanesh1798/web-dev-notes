@@ -5,11 +5,11 @@ Notes about full-stack web development.
 Things to know before going too in-depth
 
 ### Terminal Usage
-[Basic Terminal Commands](basics/terminal/terminal)
+[Basic Terminal Commands](basics/terminal/terminal.md)
 
-[Git and GitHub](basics/terminal/git)
+[Git and GitHub](basics/terminal/git.md)
 
-[SSH](basics/terminal/ssh)
+[SSH](basics/terminal/ssh.md)
 
 ### Design Principles
 SOLID
@@ -25,7 +25,7 @@ HTTP/HTTPS
 
 APIs
 
-[SPA versus MPA](basics/technology/spavmpa)
+[SPA versus MPA](basics/technology/spavmpa.md)
 
 ## Frontend
 Essentially the UI/UX and very top-level functionality
