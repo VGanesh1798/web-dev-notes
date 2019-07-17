@@ -1,15 +1,15 @@
 # Web Development
-Notes about full-stack web development. Not meant to be documentation or a guide, but instead just things to remember about different technologies.
+Notes about full-stack web development.
 
 ## Basics
 Things to know before going too in-depth
 
 ### Terminal Usage
-Basic Terminal Commands
+[Basic Terminal Commands](basics/terminal/terminal)
 
-Git and GitHub
+[Git and GitHub](basics/terminal/git)
 
-SSH
+[SSH](basics/terminal/ssh)
 
 ### Design Principles
 SOLID
@@ -25,7 +25,7 @@ HTTP/HTTPS
 
 APIs
 
-SPA versus MPA
+[SPA versus MPA](basics/technology/spavmpa)
 
 ## Frontend
 Essentially the UI/UX and very top-level functionality
@@ -226,7 +226,7 @@ Web server
 - Apache
 - nginx
 
-## Basically Sysadmin
+### Basically Sysadmin
 Containers
 - LXC
 - Docker
