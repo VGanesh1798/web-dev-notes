@@ -1,106 +1,80 @@
 # Web Development
-Notes about full-stack web development.
+Notes about full-stack web development, ranging from noters about topics and concepts to small cheatsheets for commands, utilities, and keywords. Different development technologies are discussed in separate pages.
 
 ## Basics
-Things to know before going too in-depth
+Things to know before starting to develop for the Web, ranging from how to use the Linux terminal, how to design your code, and overviews of important technology.
 
 ### Terminal Usage
-[Basic Terminal Commands](basics/terminal/terminal.md)
-
-[Git](basics/terminal/git.md)
-
-[SSH](basics/terminal/ssh.md)
+- [Basic Terminal Commands](basics/terminal/terminal.md)
+- [Git](basics/terminal/git.md)
+- [SSH](basics/terminal/ssh.md)
 
 ### Design Principles
-[SOLID](basics/design/solid.md)
+- [SOLID](basics/design/solid.md)
+- KISS - Keep it simple, stupid
+- YAGNI - You aren't gonna need it
+- DRY - Don't repeat yourself
 
-KISS - Keep it simple, stupid
-
-YAGNI - You aren't gonna need it
-
-DRY - Don't repeat yourself
-
-### Technology
-[HTTP/HTTPS](basics/technology/http.md)
-
-[APIs](basics/technology/api.md)
-
-[SPA versus MPA](basics/technology/spavmpa.md)
+### Development Technology
+- [HTTP/HTTPS](basics/technology/http.md)
+- [APIs](basics/technology/api.md)
+- [SPA versus MPA](basics/technology/spavmpa.md)
 
 ## Frontend
-Essentially the UI/UX and very top-level functionality
+User interfaces and experiences. The frontend revolves around three core elements: HTML for form, CSS for style, and Javascript for function. With the rise of client-side frameworks and SPAs, the Javascript ecosystem has grown extensively and has a lot to offer.
 
-### HTML and CSS
-Basics of HTML
+### HTML
+- Basics
+- Semantic HTML
+- SEO
+- Accessibility
 
-Semantic HTML
-
-SEO
-
-Accessibility
-
-Basics of CSS
-
-Layouts
-
-Media queries
+### CSS
+- Basics
+- Layouts
+- Media queries
 
 ### Javascript Programming
-Fundamental Javascript
-
-Data Types
-
-Objects
-
-Functions
-
-Promises and Generators
-
-Modules
-
-Meta programming
-
-ES6
-
-### DOM
-
-### AJAX
+- Basic Javascript
+- Data Types
+- Functions
+- Objects and Classes
+- Asynchronous Programming
+- Modules
+- Meta Programming
+- DOM
+- AJAX
 
 ### Javascript Concepts
+- Strict mode
+- Web Components
 
 ### Frontend Technologies
-Package managers
-- npm
-- yarn
-
-SASS
-
-CSS Frameworks
-- Bootstrap
-- Semantic UI
-
-BEM
-
-Build Tools
-- npm scripts
-- ESlint
-- Prettier
-- Webpack
-- Babel
-
-Javascript Frameworks
-- React + React Router + Redux
-- Angular
-- Vue
-
-CSS in Javascript
-- Styled components
-- CSS modules
-
-Testing
-- Jest
-- Enzyme
-- Cyprus
+- Package managers
+  - npm
+  - yarn
+- SASS
+- CSS Frameworks
+  - Bootstrap
+  - Semantic UI
+- BEM
+- Build Tools
+  - npm scripts
+  - ESlint
+  - Prettier
+  - Webpack
+  - Babel
+- Javascript Frameworks
+  - React + React Router + Redux
+  - Angular
+  - Vue
+- CSS in Javascript
+  - Styled components
+  - CSS modules
+- Testing
+  - Jest
+  - Enzyme
+  - Cyprus
 
 Progressive Web Apps
 
@@ -115,7 +89,7 @@ Electron
 React Native
 
 ## Backend
-Server-side code, either in the form of rendering or APIs
+Server side code can be written in pretty much any language, but popular choices are scripting languages. Often, a backend will be based around a framework to make the project more structured and easier to handle. In addition to a programming language, the backend uses databases and web servers.
 
 ### Scripting Languages and Frameworks
 Node.js
