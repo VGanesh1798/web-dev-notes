@@ -7,12 +7,12 @@ Things to know before going too in-depth
 ### Terminal Usage
 [Basic Terminal Commands](basics/terminal/terminal.md)
 
-[Git and GitHub](basics/terminal/git.md)
+[Git](basics/terminal/git.md)
 
 [SSH](basics/terminal/ssh.md)
 
 ### Design Principles
-SOLID
+[SOLID](basics/design/solid.md)
 
 KISS - Keep it simple, stupid
 
@@ -21,9 +21,9 @@ YAGNI - You aren't gonna need it
 DRY - Don't repeat yourself
 
 ### Technology
-HTTP/HTTPS
+[HTTP/HTTPS](basics/technology/http.md)
 
-APIs
+[APIs](basics/technology/api.md)
 
 [SPA versus MPA](basics/technology/spavmpa.md)
 
