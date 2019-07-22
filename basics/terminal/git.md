@@ -1,4 +1,5 @@
 # Git Commands
+Git is a version control system with a really cool branching feature. It can be downloaded on all platforms and is often used in conjunction with a remote repository like GitHub, GitLab, or BitBucket.
 
 ## Initial Git Setup
 There are three stages of the Git config, and each stage overrides the last.
