@@ -24,7 +24,7 @@ Things to know before starting to develop for the Web, ranging from how to use t
 User interfaces and experiences. The frontend revolves around three core elements: HTML for form, CSS for style, and Javascript for function. With the rise of client-side frameworks and SPAs, the Javascript ecosystem has grown extensively and has a lot to offer.
 
 ### HTML
-- Basics
+- [Basics](frontend/html/basics.md)
 - Semantic HTML
 - SEO
 - Accessibility
@@ -105,6 +105,9 @@ Ruby
 
 PHP
 - Laravel
+
+Java
+- Spring
 
 ### Other Languages
 Haskell
