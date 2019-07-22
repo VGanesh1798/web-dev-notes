@@ -247,6 +247,8 @@ We can combine HTML with CSS and Javascript to make our own form widgets. Javasc
 
 To make widgets accessible, we can use the `role` and `aria-selected` attributes.
 
+### Form Validation
+
 Although data should be validated on the server-side, the client-side does offer some form validation. A valid form input matches the `:valid` CSS pseudoclass and can be styled accordingly; its data will be sent upon submission, unless Javascript blocks this function. In contrast, invalid form inputs match the `:invalid` pseudoclass and submission will fail until the input becomes valid. The error message that appears can be changed using Javascript, by the way.
 
 The `required` attribute is the simplest method of input validation. Another useful validator is the `pattern` attribute, which matches the input to a specified regular expression. The `minlegnth` and `maxlength` attributes can be used on text inputs much like `min` and `max` are used for numerical inputs.
