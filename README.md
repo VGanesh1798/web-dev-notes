@@ -30,63 +30,51 @@ User interfaces and experiences. The frontend revolves around three core element
 - Accessibility
 
 ### CSS
-- Basics
-- Layouts
+- [Basics](frontend/css/basics.md)
+- [Layouts](frontend/css/layout.md)
 - Media queries
+- SASS
+- CSS Frameworks
+- BEM
+- CSS in JS
 
 ### Javascript Programming
+- [ES6+](frontend/js/es6.md)
 - Basic Javascript
 - Data Types
 - Functions
-- Objects and Classes
+- OOP
 - Asynchronous Programming
-- Modules
 - Meta Programming
+- Modules
+
+### Javascript APIs
 - DOM
-- AJAX
+- AJAX and Fetch API
+- Third-party APIs
+- Media APIs
+- Client-side Storage
 
 ### Javascript Concepts
+- Inheritance and Prototype Chain
 - Strict mode
 - Web Components
+- Memory Management
+- Concurrency Model
 
-### Frontend Technologies
+### Javascript Technologies
 - Package managers
-  - npm
-  - yarn
-- SASS
-- CSS Frameworks
-  - Bootstrap
-  - Semantic UI
-- BEM
 - Build Tools
-  - npm scripts
-  - ESlint
-  - Prettier
-  - Webpack
-  - Babel
+- Typescript
 - Javascript Frameworks
-  - React + React Router + Redux
-  - Angular
-  - Vue
-- CSS in Javascript
-  - Styled components
-  - CSS modules
 - Testing
-  - Jest
-  - Enzyme
-  - Cyprus
+- Server side rendering
+- Static site generators
+- Electron
+- React Native
 
-Progressive Web Apps
+### Progressive Web Apps
 
-Typescript
-
-Server side rendering
-
-GatsbyJS
-
-Electron
-
-React Native
 
 ## Backend
 Server side code can be written in pretty much any language, but popular choices are scripting languages. Often, a backend will be based around a framework to make the project more structured and easier to handle. In addition to a programming language, the backend uses databases and web servers.
