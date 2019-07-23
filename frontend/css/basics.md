@@ -67,7 +67,7 @@ Background images and colors naturally extend to the outer edge of the box borde
 
 Boxes also have an `outline`, which is not part of the box model but is often used for accessibility reasons to highlight active items.
 
-Boxes also have a `display` that affects how they stack. `block` elements stack on top of one another and `inline` elements wrap around the page, flowing with text. A third type is `inline-block`, which sort of combines the flowing nature of inline boxes but can have its height and width affected like block boxes.
+Lastly, boxes have a `display` that affects how they stack. `block` elements stack on top of one another and `inline` elements wrap around the page, flowing with text. A third type is `inline-block`, which sort of combines the flowing nature of inline boxes but can have its height and width affected like block boxes.
 
 ## Text
 Text is an inline element that flows along the page until the end of line is reached or a line break is put in with `<br>`. Text can either be styled by changing font or layout. Using a **font stack** allows us to choose multiple fonts for a browser to pick from, in case it doesn't support one (looking at you, Internet Explorer).

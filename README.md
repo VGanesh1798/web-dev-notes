@@ -41,7 +41,7 @@ User interfaces and experiences. The frontend revolves around three core element
 ### Javascript Programming
 - [ES6+](frontend/js/es6.md)
 - [Basics](frontend/js/basics.md)
-- Functions
+- [Functions](frontend/js/functions.md)
 - [Operators and Expressions](frontend/js/operate.md)
 - Data Types
 - OOP

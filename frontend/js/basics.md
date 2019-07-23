@@ -23,7 +23,6 @@ This section goes over the basics of Javascript. The content here should be very
 - `var` variables can be "hoisted" above their declaration, allowing us to use them before they are even declared
   - The variable's value will be `undefined` if it is hoisted
 - `let` and `const` cannot be hoisted
-- Function declarations can be hoisted, but function expressions cannot
 
 ### Global Variables
 - Properties of the global `window` object are global variables
@@ -58,11 +57,12 @@ String           # Strings, complete with escape sequences
 ```
 
 ## Block Statements
-Javascript has pretty much all of the common block statements in most languages.
+Javascript has pretty much all of the common block statements.
 
 ### Control Flow
 - `if` and `else` statements
 - `switch` statements
+  - Both `case` and `default`
 
 ### Error Handling
 - `try`, `catch`, and `throw`
