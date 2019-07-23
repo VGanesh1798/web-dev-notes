@@ -32,17 +32,18 @@ User interfaces and experiences. The frontend revolves around three core element
 ### CSS
 - [Basics](frontend/css/basics.md)
 - [Layouts](frontend/css/layout.md)
-- Media queries
-- SASS
+- [Media queries](frontend/css/media.md)
+- [SASS](frontend/css/sass.md)
 - CSS Frameworks
 - BEM
 - CSS in JS
 
 ### Javascript Programming
 - [ES6+](frontend/js/es6.md)
-- Basic Javascript
-- Data Types
+- [Basics](frontend/js/basics.md)
 - Functions
+- [Operators and Expressions](frontend/js/operate.md)
+- Data Types
 - OOP
 - Asynchronous Programming
 - Meta Programming
@@ -79,74 +80,34 @@ User interfaces and experiences. The frontend revolves around three core element
 ## Backend
 Server side code can be written in pretty much any language, but popular choices are scripting languages. Often, a backend will be based around a framework to make the project more structured and easier to handle. In addition to a programming language, the backend uses databases and web servers.
 
-### Scripting Languages and Frameworks
-Node.js
-- Express
-- Koa
-
-Python
-- Django
-- Flask
-
-Ruby
-- Rails
-
-PHP
-- Laravel
-
-Java
-- Spring
-
-### Other Languages
-Haskell
-
-Clojure
-
-Go
-
-Rust
+### Languages
+- Node.js
+- Python
+- Ruby
+- PHP
+- Java
+- C#
+- Haskell
+- Clojure
+- Go
+- Rust
 
 ### Databases
-SQL Databases
-- MySQL
-- MariaDB
-- PostgreSQL
-
-NoSQL
+- SQL
 - MongoDB
+- Graph Databases
 
 ### Backend Concepts
-Caching
-- Memcached
-- Redis
-
-RESTful APIs
-
-Authentication
-- OAUth
-- Basic authentication
-- Token
-- JWT
-- OpenID
-
-Message Brokers
-- RabbitMQ
-- Kafka
-
-ElasticSearch
-
-Docker
-
-Web Servers
-- Apache
-- nginx
-- Node.js
-
-Web Sockets
-
-GraphQL
-
-SOAP
+- Caching
+- RESTful APIs
+- Authentication
+- Message Brokers
+- ElasticSearch
+- Docker
+- Web Servers
+- Web Sockets
+- GraphQL
+- SOAP
 
 ## Devops
 Even farther in the backend than the backend, borderline sysadmin.
@@ -156,73 +117,33 @@ Make sure you are proficient in a programming language like Python, C++, Node.js
 ### OS Concepts
 
 ### Advanced Linux
-Linux OS
-
-Bash scripting
-
-Vim
-
-Text manipulation
-
-Compiling from source
-
-Process Monitoring
-
-System Performance
-
-Network
-
-Other stuff
+- Linux OS
+- Bash Scripting
+- Vim
+- Text Manipulation
+- Compiling from Source
+- Process Monitoring
+- System Performance
+- Network
+- Other Stuff
 
 ### Networking and Security
 
 ### Setup
-Reverse proxy
-
-Forward proxy
-
-Caching server
-
-Load balancer
-
-Firewall
-
-Web server
-- Apache
-- nginx
+- Reverse Proxy
+- Forward Proxy
+- Caching Server
+- Load Balancer
+- Firewall
+- Web Server
 
 ### Basically Sysadmin
-Containers
-- LXC
-- Docker
-
-Configuration Management
-- Ansible
-- Puppet
-
-Container Orchestration
-- Kubernetes
-- Docker swarm
-
-Terraform
-
-CI/CD
-- Jenkins
-- GitLab
-
-Log Management
-- ELK
-- Graylog
-
-Monitoring
-- Nagios
-- Zabbix
-- Icinga
-
-Application Monitoring
-
-Cloud Providers
-- AWS
-- DigitalOcean
-- Heroku
-- Linode
+- Containers
+- Container Orchestration
+- Configuration Management
+- Infrastructure Provisioning
+- CI/CD
+- Logs Management
+- Infrastructure Monitoring
+- Application Monitoring
+- Cloud

@@ -235,20 +235,15 @@ list             # Attribute used to link input to datalist via datalist's ID
 ```
 Checkboxes only send their data if they are checked; this contrasts with other inputs, which send data no matter what. Usually, checkboxes are placed as items of a list inside of a `<fieldset>` element with a corresponding `<legend>`. An additional attribute is the `checked` attribute. Radio buttons with the same `name` are grouped together, and only one of the buttons can be selected at a time. The `value` of this button is then sent, and if no buttons are selected, no value is sent at all.
 
-The `number` and `range` inputs can (and should, for the slider) have `min`, `max`, and `step` defined. Sliders don't actually provide any visual indicator of what the selected value is; this has to be implemented using a `<span>` element and some Javascript. Time/date inputs can also be constrained using `min` and `max`.
+The `number` and `range` inputs can (and should, for the slider) have `min`, `max`, and `step` defined. Sliders don't actually provide any visual indicator of what the selected value is; this has to be implemented using a `<span>` element and some Javascript. Time/date inputs can also be constrained using `min` and `max`. Meters are limited by `min` and `max`. They also take a `low` and `high`, as well as an `optimum`, to divide up the range of values and color the meter either red, yellow, or green depending on how optimal the current value is.
 
-The types of files to pick can be constrained using the `accept` attribute, and `multiple` can be used too
+The types of files to pick can be constrained using the `accept` attribute, and `multiple` can be used too.
 
 Inputs set to `image` will inherit all of the same attributes as `<img>`. These image buttons can be used to submit forms and send two key/value pairs. The keys consist of the `name` followed by the x and y coordinates of the click.
 
-Meters are limited by `min` and `max`. They also take a `low` and `high`, as well as an `optimum`, to divide up the range of values and color the meter either red, yellow, or green depending on how optimal the current value is.
-
-We can combine HTML with CSS and Javascript to make our own form widgets. Javascript is unreliable technology however, so be wary of doing this. The DOM API is useful when adding functionality, but for browsers that have issues (like IE), libraries like jQuery are useful.
-
-To make widgets accessible, we can use the `role` and `aria-selected` attributes.
+We can combine HTML with CSS and Javascript to make our own form widgets. Javascript is unreliable technology however, so be wary of doing this. The DOM API is useful when adding functionality, but for browsers that have issues (like IE), libraries like jQuery are useful. To make widgets accessible, we can use the `role` and `aria-selected` attributes.
 
 ### Form Validation
-
 Although data should be validated on the server-side, the client-side does offer some form validation. A valid form input matches the `:valid` CSS pseudoclass and can be styled accordingly; its data will be sent upon submission, unless Javascript blocks this function. In contrast, invalid form inputs match the `:invalid` pseudoclass and submission will fail until the input becomes valid. The error message that appears can be changed using Javascript, by the way.
 
 The `required` attribute is the simplest method of input validation. Another useful validator is the `pattern` attribute, which matches the input to a specified regular expression. The `minlegnth` and `maxlength` attributes can be used on text inputs much like `min` and `max` are used for numerical inputs.

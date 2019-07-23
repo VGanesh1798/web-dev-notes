@@ -1,5 +1,4 @@
 # SPA vs. MPA
-
 SPA stands for single-page application. As the name implies, it is less of a website and more of a web application that lives entirely on one page. Instead of making calls to a server to re-render the page, different parts of the page are selectively re-rendered, making it seem like nothing is loading or refreshing at all.
 
 MPA stands for multi-page application but pretty much just refers to a normal website. The server renders different pages for different URLs and every new page and its assets must be loaded in by the browser.
@@ -20,7 +19,6 @@ An SPA is based around a client-side framework like Vue or Angular, meaning it u
 An MPA is typically (not not always) based around a server-side framework like Laravel or Django and follows the MVC design architecture. The server-side language is used to return different HTML pages (which contain their own CSS/JS if necessary) based on the URL and communicates with a database for the website. All of the rendering of pages is pretty much done by the server.
 
 ### Summary
-
 **SPA**
 - Frontend: Javascript framework (views, routes, states)
 - Backend: RESTful API server

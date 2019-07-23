@@ -113,8 +113,6 @@ Links have some default styling placed on them, like coloring and an underline, 
 Unfortunately, `font-family` is limited to only Web-safe fonts, which can get boring. CSS offers an alternative called Web fonts, which allow us to download new fonts from online. To add them, place a `@font-face` block at the start of a .css file and include the properties `font-family` to name the new font and `src` to specify from where to download the font. Now, this new font can be used with `font-family` in the future.
 
 ## Boxes
-
-### Box Model Recap
 Box height and width can be constrained by setting max/min values for both. Keep in mind that box heights don't support percentages and need units like `px` or `em`. Using `margin: 0 auto` sets the top/bottom margins to zero while centering the content by sharing space between the left/right margins.
 
 The total width of a box is the sum of its `width`, `padding-right`, `padding-left`, `border-left`, and `border-right`. To tweak the box model entirely, use the `box-sizing` property. The value `border-box` is useful for this property.
