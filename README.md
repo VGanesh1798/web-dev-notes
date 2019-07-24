@@ -43,7 +43,7 @@ User interfaces and experiences. The frontend revolves around three core element
 - [Basics](frontend/js/basics.md)
 - [Functions](frontend/js/functions.md)
 - [Operators and Expressions](frontend/js/operate.md)
-- Data Types
+- [Data Types](frontend/js/data.md)
 - OOP
 - Asynchronous Programming
 - Meta Programming

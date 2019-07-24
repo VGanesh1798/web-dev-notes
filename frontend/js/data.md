@@ -64,3 +64,37 @@ Javascript has two indexed collections, one of which was introduced fairly recen
 - Arrays can either be constructed using `Array` or declared literally
   - Trailing commas in an array literal are ignored (only the last one)
     - Empty commas create indices with `undefined` elements
+- Arrays grow or shrink dynamically as elements are added and removed
+  - Arrays can be made up of any kind of data
+- Arrays can be multidimensional
+- Benefit from `for...of` loops; the `for...in` loop will iterate over the index "names", not the values
+
+### Typed Array
+- Implementation is split into buffers and views
+  - The `ArrayBuffer` object represents a chunk of data but cannot be accessed
+  - Typed data views (or the `DataView` object) provide access to the data
+
+## Keyed Collections
+Collections like Python's dictionary and Java's HashMap have been implemented in Javascript since 2015. 
+
+### Map
+- Simple key/value map that can use a `for...of` loop to iterate over values
+- More useful than objects to map data since:
+  - Keys can be anything, not just strings
+  - Easier to get size of `Map`
+  - Iteration over values is based on insertion order, not alphabetical
+  - `Object` has a prototype, so it has default keys
+
+### Weak Map
+- Keys are **objects only** and values can be arbitrary
+  - Object references in keys are held weakly, so garbage collection will take care of them if there is no other reference to the object
+- Keys for `WeakMap` are not enumerable; there is no way to get a list of keys
+
+### Set
+- Collection of unique values that are iterated over insertion order
+- Arrays can be made from sets by using `Array.from` or spread operator
+  - The opposite is possible by including array in set constructor, although duplicate values in the array will be deleted
+
+### Weak Set
+- Collection of **objects only**
+- Like `WeakMap`, references to objects are held weakly and taken care of by garbage collection, and values are not enumerable (no list of values)
